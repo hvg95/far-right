@@ -1,0 +1,37 @@
+Data Diary
+  Accessed 12/7/23
+Populist 3.0
+ParlGov.Org
+
+(ATTEMPT 01)Populist: filtered to all parties with a far right value of one
+Parl Gov: filtered out all European countries
+Vlookup
+Filtered (potential prob, using cases from 2023 but party lists ends in 2022)
+Divided seats by seats total
+Changed my mind
+Sorted by country
+Pulled vote share of most recent election a far right party ran in (as long as was in past 5 years)
+Lost everything
+
+(ATTEMPT 02)
+Redownloaded populist and parl gov
+Sorted/filtered Populist by Far right and far right BL, put into new spreadsheet tab
+Sorted elections by later than 2000, Europe only
+V lookup for right wing and bl
+Sort
+Now we have all elections where a right wing party ran
+A problem again! Brexit party not showing up
+
+(ATTEMPT 03)
+Restarted 
+Sorted elections by most recent, including all parties (2023 and further back until every country represented once)
+Put most recent elections by party/country into new sheet 
+VLookup for parties labelled as "far-right" or "far-right_bl" (borderline) on PopuList
+Added vote share for each far-right party to get Total Vote Share for all far-right parties in each individual country
+Repeated for elections in 2013 and further back (until every country represented)
+
+Notes
+Vote share data was missing for some parties in Hungary and Poland.  Divded the number of seats won by the total to get vote share for those parties.
+Some parties did not have ParlGov ID numbers; assumed this meant they had not won a seat, so thus would be excluded anyway
+ParlGov methodology for vote share is interesting- even parties that have won "0" seats can sometimes get a plus-0 number of the vote share...
+
